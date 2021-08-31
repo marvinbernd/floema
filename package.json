@@ -23,6 +23,7 @@
   "devDependencies": {
     "@prettier/plugin-pug": "^1.16.5",
     "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "concurrently": "^6.2.1",
     "copy-webpack-plugin": "^9.0.1",
@@ -41,7 +42,9 @@
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-optipng": "^8.0.0",
+    "method-override": "^3.0.0",
     "mini-css-extract-plugin": "^2.2.0",
+    "morgan": "^1.10.0",
     "postcss-loader": "^6.1.1",
     "prettier": "^2.3.2",
     "raw-loader": "^4.0.2",
@@ -56,6 +59,7 @@
   "dependencies": {
     "@prismicio/client": "^5.1.0",
     "dotenv": "^10.0.0",
+    "errorhandler": "^1.5.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.12",
     "prismic-dom": "^2.2.6",
