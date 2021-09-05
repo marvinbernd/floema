@@ -12,12 +12,15 @@ module.exports = merge(config, {
     static: {
       directory: path.join(__dirname, 'public')
     },
+
     open: {
       app: {
         name: 'Google Chrome'
       }
     },
+
     port: 8000,
+
     proxy: {
       '/**': 'http://localhost:3000'
     }
